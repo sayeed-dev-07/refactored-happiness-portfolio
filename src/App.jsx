@@ -1,7 +1,10 @@
 
-import './App.css'
+import './index.css'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
+import AboutMe from './components/AboutMe'
+import Border from './components/Border'
+import Projects from './components/Projects'
 
 
 function App() {
@@ -9,9 +12,14 @@ function App() {
 
   return (
     <>
-      <div className="wrapper w-full bg-[#040d12] min-h-screen px-4 md:px-[5%] lg:px-[10%] xl:px-[15%]">
+      <div className="wrapper w-full bg-[#white] min-h-screen">
         <Navbar />
+        <Border />
         <Hero />
+        <Border />
+        <AboutMe />
+        <Border />
+        <Projects />
       </div>
     </>
   )

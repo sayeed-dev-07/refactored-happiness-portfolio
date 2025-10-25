@@ -1,0 +1,26 @@
+@font-face {
+    font-family: bungee;
+    src: url('../src/assets/fonts/Bungee-Regular.ttf');
+}
+@font-face {
+    font-family: outfit;
+    src: url('../src/assets/fonts/Outfit-Regular.ttf');
+}
+@font-face {
+    font-family: bbhsans;
+    src: url('../src/assets/fonts/BBHSansBartle-Regular.ttf');
+}
+@font-face {
+    font-family: play;
+    src: url('../src/assets/fonts/PlaywriteAUTAS-VariableFont_wght.ttf');
+}
+
+@import "tailwindcss";
+
+
+@theme{
+    --font-bungee : bungee, 'sans-serif';
+    --font-outfit : outfit, 'sans-serif';
+    --font-bbhsans : bbhsans, 'sans-serif';
+    --font-play : play, 'sans-serif';
+}
