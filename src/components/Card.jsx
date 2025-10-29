@@ -13,7 +13,7 @@ const Card = ({ name, img, description, live, code}) => {
 
                 </div>
             </div>
-            <div style={{ backgroundImage: `url('${img}')` }} className='w-full transition-all duration-150 group-hover:blur-none blur-[0.08rem] bg-cover bg-center h-[200px] border-x-0 border-2'>
+            <div style={{ backgroundImage: `url('${img}')` }} className='w-full transition-all duration-150 group-hover:blur-none md:blur-[0.08rem] bg-cover bg-center h-[200px] border-x-0 border-2'>
             </div>
             <div className='p-6 flex flex-col items-start justify-center gap-y-6'>
                 <p className='text-3xl font-outfit font-semibold'>{name}</p>
